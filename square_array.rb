@@ -3,3 +3,8 @@ def square_array(array)
   array.each { |number| new_arr << number ** 2}
   new_arr
 end
+
+def square_array(array)
+
+array.collect{|num| num **2}
+end
